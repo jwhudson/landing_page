@@ -2,4 +2,101 @@ html,
 body {
     margin: 0;
     box-sizing: border-box;
+    height: 100vh;
+}
+
+.main-layout {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    flex-basis: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+.logo img {
+    max-width: 20%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.nav-section {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-evenly;
+}
+
+.nav-section a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    padding: 2rem;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.hero-text {
+    flex-basis: 30%;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.hero-image {
+    flex-basis: 30%;
+}
+
+.hero-image img {
+    max-width: 50%;
+}
+
+.hero-button {
+    padding: 0.5rem 1rem;
+    background: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 10%;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: #FFF;
+}
+
+.information-box-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.information-box-picture img {
+    height: 200px;
+    width: 200px;
 }
